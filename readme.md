@@ -153,7 +153,7 @@ For usage, first clone this repository into your local 'cystolith_detection' dir
 ## 8. Credits
 
 "Identification of Non-Glandular Trichome Hairs in Cannabis using Vision-Based Deep Learning Methods"
-Alon Zvirin ^1, Amitzur Shapira ^2, Emma Attal ^1, Tamar Gozlan ^1, Arthur Soussan ^1, Dafna De La Vega ^2, Yehudit Harush ^2, and Ron Kimmel ^1.
+Alon Zvirin<sup>1</sup>, Amitzur Shapira ^2, Emma Attal ^1, Tamar Gozlan ^1, Arthur Soussan ^1, Dafna De La Vega ^2, Yehudit Harush ^2, and Ron Kimmel ^1.
     1 Computer Science Department, Technion - Israel Institute of Technology. Haifa, Israel. 
     2 The Division of Forensic Sciences, National Police Headquarters, Jerusalem, Israel.  
 The paper will soon be published.  
