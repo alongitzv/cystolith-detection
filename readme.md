@@ -3,7 +3,6 @@
 
 ### **Cystolith Detection**
 
-```markdown
 # Cystolith Detection: A Vision-Based Deep Learning Framework
 
 ## Table of Contents
@@ -28,7 +27,6 @@ All tools and configurations are made publicly available to ensure reproducibili
 
 ![Sample trichomes](images/Fig_2_trichome_samples.jpg)
 Samples of non-glandular trichome hairs in cannabis (left) and non-cannabis trichomes (right) from the dataset collected during this research.
-
 
 Source code and configuration files are in the 'src' folder. 
 The code contains :
