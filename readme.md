@@ -3,7 +3,6 @@
 
 ### **Cystolith Detection**
 
-
 # Cystolith Detection: A Vision-Based Deep Learning Framework
 
 ## Table of Contents
@@ -26,15 +25,14 @@ The project incorporates a pipeline of classifiers, object detectors (YOLO, DETR
 It provides a scalable, cost-effective alternative to conventional tests, significantly reducing the time and resources required for forensic identification. 
 All tools and configurations are made publicly available to ensure reproducibility and enable further research.
 
-![Sample trichomes](./images/Fig_2_trichome_samples.jpg)
+![Sample trichomes](images/Fig_2_trichome_samples.jpg)
 Samples of non-glandular trichome hairs in cannabis (left) and non-cannabis trichomes (right) from the dataset collected during this research.
-
 
 Source code and configuration files are in the 'src' folder. 
 The code contains:   
-	1. two different classifiers for whole images.  
+	1. Two different classifiers for whole images.  
 	2. YOLO and DETR object detectors for trichome hair identification.  
-	3. two composite methods for classification, combining the object detectors and whole image and/or bounding box classification.
+	3. Two composite methods for classification, combining the object detectors and whole image and/or bounding box classification.
 
 Images and annotations are in the 'data' folder.
 Manual annotations of bonding boxes surrounding trichome hairs were obtained using MakeSense, freely available at https://www.makesense.ai/.  
@@ -51,8 +49,8 @@ For usage, first clone this repository into your local 'cystolith_detection' dir
 * `src/image_lists/`: Contains train/validation/test partitions for the datasets.
 * `src/configs/`: Configuration files for training and testing.
 *  Notes on file names and annotations:
-    all filenames containing 'C' refer to genuine cannabis; filenames containing 'S' refer to non-cannabis material.
-    annotated bounding boxes of genuine cannabis are labeled '0'; non-cannabis are labeled '1'. 
+    All filenames containing 'C' refer to genuine cannabis; filenames containing 'S' refer to non-cannabis material.
+    Annotated bounding boxes of genuine cannabis are labeled '0'; non-cannabis are labeled '1'. 
 
 
 ## 3. Basic Classifiers: Overview and Usage
@@ -69,9 +67,9 @@ For usage, first clone this repository into your local 'cystolith_detection' dir
 * Use the configuration files in \cystolith_detection\src\basic_classifiers\configs
 * Use the image lists in \cystolith_detection\src\basic_classifiers\image_lists
 * In the configuration file:
-	1. change the data->path field to your local directory containing the images
-	2. change the train->out_dir field to your desired local directory for writing results
-
+	1. Change the data->path field to your local directory containing the images
+	2. Change the train->out_dir field to your desired local directory for writing results
+	
 * Small CNN training and testing:	
 	python train.py --config configs/config_03_ETAZ_f1_1b4.yml
 	python test.py --config configs/config_03_ETAZ_f1_1b4.yml
@@ -90,17 +88,17 @@ For usage, first clone this repository into your local 'cystolith_detection' dir
 	
 * YOLO training:
 
-	1. open file \cystolith_detection\src\yolov4\darknet\cfg\yolov4-custom.cfg
-	2. comment the lines "batch=1" and "subdivisions=1", and uncomment lines"#batch=64" and "#subdivisions=16" (lines 3,4 and 6,7)
-	3. open cmd from \cystolith_detection\src\yolov4\darknet
-	4. run command: darknet.exe detector train data/obj.data cfg/yolov4-custom.cfg yolov4/training/yolov4-custom_last.weights -map
+	1. Open file \cystolith_detection\src\yolov4\darknet\cfg\yolov4-custom.cfg
+	2. Comment the lines "batch=1" and "subdivisions=1", and uncomment lines"#batch=64" and "#subdivisions=16" (lines 3,4 and 6,7)
+	3. Open cmd from \cystolith_detection\src\yolov4\darknet
+	4. Run command: darknet.exe detector train data/obj.data cfg/yolov4-custom.cfg yolov4/training/yolov4-custom_last.weights -map
 
 * YOLO testing:
 
-	1. open file \cystolith_detection\src\yolov4\darknet\cfg\yolov4-custom.cfg
-	2. uncomment the lines "#batch=1" and "#subdivisions=1", and comment lines"batch=64" and "subdivisions=16" (lines 3,4 and 6,7)
-	3. open cmd from \cystolith_detection\src\yolov4\darknet
-	4. run command: py yolo_accuracy_check.py
+	1. Open file \cystolith_detection\src\yolov4\darknet\cfg\yolov4-custom.cfg
+	2. Uncomment the lines "#batch=1" and "#subdivisions=1", and comment lines"batch=64" and "subdivisions=16" (lines 3,4 and 6,7)
+	3. Open cmd from \cystolith_detection\src\yolov4\darknet
+	4. Run command: py yolo_accuracy_check.py
 
 
 ## 5. DETR Object Detection: Training and Testing
@@ -112,41 +110,41 @@ For usage, first clone this repository into your local 'cystolith_detection' dir
 
 * DETR training + testing:
 
-	1. open cmd from \cystolith_detection\src\detr\model_DETR\detr_training_and_testing
-	2. run command: py detr_training.py
+	1. Open cmd from \cystolith_detection\src\detr\model_DETR\detr_training_and_testing
+	2. Run command: py detr_training.py
 
 * DETR testing only:
 
-	1. open cmd from \cystolith_detection\src\detr\model_DETR\detr_testing_and_analyzing
-	2. run command: py detr_testing.py
+	1. Open cmd from \cystolith_detection\src\detr\model_DETR\detr_testing_and_analyzing
+	2. Run command: py detr_testing.py
 
 * DETR analyzing:
 
-	1. open cmd from \cystolith_detection\src\detr\model_DETR\detr_testing_and_analyzing
-	2. run command: py detr_accuray_check.py
+	1. Open cmd from \cystolith_detection\src\detr\model_DETR\detr_testing_and_analyzing
+	2. Run command: py detr_accuray_check.py
 
 
 ## 6. Composite Methods
 
 * Create the bounding box dataset needed for training the composite 2&3 stage method:
-	1. train DETR with a lower threshold (see previous section) and use TH = XXX in the XXX file. (TODO - find confidence_threshold, detection_threshold in detr_predict())
-	2. run the classifier_bbx_to_images() function in src/basic_classifiers/utils.py to produce the bounding boxes images from DETR's classification.
-	3. run the create_yolo_detr_split_lists() function in src/basic_classifiers/utils.py to create lists of train/validation/test splits of the bounding box images.
-	4. train the DLA model on boundig boxes images, with the following command (similar to DLA training as described above): 
+	1. Train DETR with a lower threshold (see previous section) and use TH = XXX in the XXX file. (TODO - find confidence_threshold, detection_threshold in detr_predict())
+	2. Run the classifier_bbx_to_images() function in src/basic_classifiers/utils.py to produce the bounding boxes images from DETR's classification.
+	3. Run the create_yolo_detr_split_lists() function in src/basic_classifiers/utils.py to create lists of train/validation/test splits of the bounding box images.
+	4. Train the DLA model on boundig boxes images, with the following command (similar to DLA training as described above): 
 		python train.py --config configs/config_06_f1_1a_g7.yml	
-	5. use the model trained on bounding boxes as part of the composite method described below.
+	5. Use the model trained on bounding boxes as part of the composite method described below.
 
 * Composite method 1 - DETR --> CNN on whole image:
 
-	1. open cmd from \cystolith_detection\src\composite_classifiers
-	2. run command: py final_method_whole.py
-	3. the output table with all detection info and predictions will be in folder \cystolith_detection\src\composite_classifiers\final_method_results
+	1. Open cmd from \cystolith_detection\src\composite_classifiers
+	2. Run command: py final_method_whole.py
+	3. The output table with all detection info and predictions will be in folder \cystolith_detection\src\composite_classifiers\final_method_results
 
 * Composite method 2 - DETR --> CNN on bounding boxes:
 
-	1. open cmd from \cystolith_detection\src\composite_classifiers
-	2. run command: py final_method_bb.py
-	3. the output table with all detection info and predictions will be in folder \cystolith_detection\src\composite_classifiers\final_method_results
+	1. Open cmd from \cystolith_detection\src\composite_classifiers
+	2. Run command: py final_method_bb.py
+	3. The output table with all detection info and predictions will be in folder \cystolith_detection\src\composite_classifiers\final_method_results
 
 
 ## 7. General Notes
