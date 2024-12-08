@@ -26,7 +26,7 @@ The project incorporates a pipeline of classifiers, object detectors (YOLO, DETR
 It provides a scalable, cost-effective alternative to conventional tests, significantly reducing the time and resources required for forensic identification. 
 All tools and configurations are made publicly available to ensure reproducibility and enable further research.
 
-![Sample trichomes](./images/Fig_2_trichome_samples.jpg)
+![Sample trichomes](images/Fig_2_trichome_samples.jpg)
 Samples of non-glandular trichome hairs in cannabis (left) and non-cannabis trichomes (right) from the dataset collected during this research.
 
 
