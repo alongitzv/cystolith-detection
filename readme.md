@@ -164,7 +164,5 @@ Alon Zvirin ^1, Amitzur Shapira ^2, Emma Attal ^1, Tamar Gozlan ^1, Arthur Souss
 The paper will soon be published.
 Contact - alongitzv@gmail.com
 
-*********************
-
 
 ## END ##
