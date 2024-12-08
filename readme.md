@@ -3,7 +3,7 @@
 
 ### **Cystolith Detection**
 
-```markdown
+
 # Cystolith Detection: A Vision-Based Deep Learning Framework
 
 ## Table of Contents
@@ -31,13 +31,13 @@ Samples of non-glandular trichome hairs in cannabis (left) and non-cannabis tric
 
 
 Source code and configuration files are in the 'src' folder. 
-The code contains :
-	1. two different classifiers for whole images.
-	2. YOLO and DETR object detectors for trichome hair identification.
+The code contains:   
+	1. two different classifiers for whole images.  
+	2. YOLO and DETR object detectors for trichome hair identification.  
 	3. two composite methods for classification, combining the object detectors and whole image and/or bounding box classification.
 
 Images and annotations are in the 'data' folder.
-Manual annotations of bonding boxes surrounding trichome hairs were obtained using MakeSense, freely available at https://www.makesense.ai/.
+Manual annotations of bonding boxes surrounding trichome hairs were obtained using MakeSense, freely available at https://www.makesense.ai/.  
 Lists of images are in the  'src/image_lists' folder.
 These contain two different splits of the images into train/validation/test partitions.
 
