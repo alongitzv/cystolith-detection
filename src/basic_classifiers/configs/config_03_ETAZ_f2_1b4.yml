@@ -1,0 +1,57 @@
+data:
+    dataset: CYSTO
+    path: C:/alon/datasets/cystolith/
+    train_list: ./image_lists/ETAZ_f2_train_list.txt
+    validation_list: ./image_lists/ETAZ_f2_validation_list.txt
+    test_list: ./image_lists/ETAZ_f2_test_list.txt
+    img_size: [1710,4096] # [2160,4096] [512,512]
+    do_resize: [428,1024] # [540,1024] [270,512] [512,512] [0,0]
+    n_channels: 3
+    normalize_mean: [0.385 0.411 0.430] # [0.5, 0.5, 0.5]
+    normalize_std: [0.157 0.1727 0.200] # [0.5, 0.5, 0.5]
+    n_workers: 4    
+    
+model:
+    arch: small_cnn     # basic_512     basic     small_cnn    dla
+    do_bn: True
+    #pretrained: False    
+ 
+train:        
+    out_dir: ./runs/cfg_03_ETAZ_f2_1b4
+    pretrained_model: # ./runs/cfg_0/cifar_net.pth    
+    saved_model: cysto_net.pth
+    n_epochs: 80
+    batch_size: 16
+    n_validations_per_epoch: 2        
+    loss:
+        name: cross_entropy     #         
+        reduction: 'mean'   #
+        #ignore_index: 10
+        class_weights: [1.0, 1.0]  # [1.00, 10.02]
+    optimizer:
+        name: Adam    # Adam  SGD
+        lr: 1.0e-4
+        momentum: 0.9  # 0
+        weight_decay: 5.0e-4     # 0
+    scheduler:
+        #name: # StepLR     CosineAnnealingLR         
+        #step_size: 10  # used in StepLR
+        #gamma: 0.9    # used in StepLR
+        #T_max: 200  # used in CosineAnnealingLR
+
+augmentations:
+    saturation: 0.02    # [saturation varied in 1-x to 1+x]
+    hue: 0.02           # [hue varied in -x to x]
+    brightness: 0.02    # [brightness varied in 1-x to 1+x]
+    gamma: 0.02         # [gamma varied in 1 to 1+x]
+    contrast: 0.02      # [contrast varied in 1-x to 1+x]
+    rotate: 20         # [rotate -d to d degrees]
+    shear: 0            # [shear value -s to s]
+    scale: [0.9, 1.2]   # [scale in range (s_min, s_max)]
+    translate: [16, 16] # [translation by max (du, dv)]
+    hflip: 0.5          # [flip horizontally with chance p]
+
+debug_info:
+    save_training_images: 0
+    save_training_dir: runs/zz_debug_pics1
+    save_test_info: 1

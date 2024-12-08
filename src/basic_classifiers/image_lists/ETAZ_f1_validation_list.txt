@@ -1,0 +1,279 @@
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (100).jpg                                  
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1002).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1004).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1006).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1010).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1013).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1015).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1019).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (102).jpg                                  
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1021).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1023).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1025).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1027).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1029).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1031).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1033).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1035).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1037).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1039).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (104).jpg                                  
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1041).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1043).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1045).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1047).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1049).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1051).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1053).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1055).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1057).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1059).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (106).jpg                                  
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1061).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1064).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1066).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1068).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1070).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1072).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1074).jpg                                 
+0	../cystolith_detection/data/images_annotations/ET_set1/pics/C (1076).jpg                                 
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (61).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (62).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (63).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (64).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (65).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (66).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (67).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (68).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (69).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (70).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (71).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (72).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (73).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (74).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (75).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (76).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (77).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (78).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (79).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (80).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (81).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (82).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (83).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (84).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (85).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (86).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (87).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (88).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (89).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (90).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (91).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (92).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (93).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (94).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (95).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (96).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (97).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (98).jpg                                   
+1	../cystolith_detection/data/images_annotations/ET_set1/pics/S (99).jpg     
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_01_C_Image_45.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_01_C_Image_46.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_01_C_Image_47.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_01_C_Image_48.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_01_C_Image_49.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_01_C_Image_50.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_02_S_Image_45.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_02_S_Image_46.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_435.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_436.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_439.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_440.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_441.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_442.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_444.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_445.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_446.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_447.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_448.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_449.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_450.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_451.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_452.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_455.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_456.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_457.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_458.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_459.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_462.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_463.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_464.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_467.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_468.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_471.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_472.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_473.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_475.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_477.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_479.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_480.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_481.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_482.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_484.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_485.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_486.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_489.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_490.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_492.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_493.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_03_C_Image_495.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_222.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_223.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_224.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_225.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_226.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_227.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_228.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_229.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_230.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_231.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_232.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_233.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_235.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_236.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_237.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_238.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_239.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_240.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_241.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_242.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_243.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_244.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_245.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_246.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_247.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_248.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_249.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_250.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_251.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_04_S_Image_252.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_05_S_Image_244.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_05_S_Image_245.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_05_S_Image_246.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_05_S_Image_248.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_05_S_Image_249.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_05_S_Image_251.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_05_S_Image_252.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_05_S_Image_253.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_05_S_Image_254.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_05_S_Image_255.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_05_S_Image_256.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_05_S_Image_258.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_05_S_Image_260.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_05_S_Image_261.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_05_S_Image_263.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_05_S_Image_265.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_05_S_Image_266.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_05_S_Image_269.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_463.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_465.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_467.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_468.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_470.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_472.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_473.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_474.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_475.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_476.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_477.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_478.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_481.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_482.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_483.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_484.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_485.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_488.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_489.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_490.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_491.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_493.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_494.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_495.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_496.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_497.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_498.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_499.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_501.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_502.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_505.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_506.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_507.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_508.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_509.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_510.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_512.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_513.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_514.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_515.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_516.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_517.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_519.jpg
+0	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_06_C_cytolyty_520.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_320.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_322.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_323.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_324.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_333.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_334.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_335.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_336.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_339.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_340.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_342.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_343.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_344.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_345.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_346.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_347.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_348.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_349.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_350.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_352.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_353.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_356.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_357.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_07_S_Image_359.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_377.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_378.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_381.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_382.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_383.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_384.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_385.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_386.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_387.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_388.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_389.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_390.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_391.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_393.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_394.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_395.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_397.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_399.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_400.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_401.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_402.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_405.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_406.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_407.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_408.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_409.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_410.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_411.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_412.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_413.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_414.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_415.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_416.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_418.jpg
+1	../cystolith_detection/data/images_annotations/AZ_set1/pics/pics_08_S_Image_419.jpg
