@@ -38,7 +38,6 @@ Images and annotations are in the 'data' folder.
 Manual annotations of bonding boxes surrounding trichome hairs were obtained using MakeSense, freely available at https://www.makesense.ai/.  
 Lists of images are in the  'src/image_lists' folder.
 These contain two different splits of the images into train/validation/test partitions.
-
 For usage, first clone this repository into your local 'cystolith_detection' directory.
 
 
@@ -48,8 +47,8 @@ For usage, first clone this repository into your local 'cystolith_detection' dir
 * `data/`: Includes images and annotations used for training and testing.
 * `src/image_lists/`: Contains train/validation/test partitions for the datasets.
 * `src/configs/`: Configuration files for training and testing.
-*  Notes on file names and annotations:
-    All filenames containing 'C' refer to genuine cannabis; filenames containing 'S' refer to non-cannabis material.
+*  Notes on file names and annotations:  
+    All filenames containing 'C' refer to genuine cannabis; filenames containing 'S' refer to non-cannabis material.  
     Annotated bounding boxes of genuine cannabis are labeled '0'; non-cannabis are labeled '1'. 
 
 
@@ -66,24 +65,23 @@ For usage, first clone this repository into your local 'cystolith_detection' dir
 * Use the configuration files in \cystolith_detection\src\basic_classifiers\configs
 * Use the image lists in \cystolith_detection\src\basic_classifiers\image_lists
 * In the configuration file:
-	1. Change the data->path field to your local directory containing the images
-	2. Change the train->out_dir field to your desired local directory for writing results
+	1. Change the data->path field to your local directory containing the images.
+	2. Change the train->out_dir field to your desired local directory for writing results.
 	
 * Small CNN training and testing:	
-	python train.py --config configs/config_03_ETAZ_f1_1b4.yml
-	python test.py --config configs/config_03_ETAZ_f1_1b4.yml
+	python train.py --config configs/config_03_ETAZ_f1_1b4.yml  
+	python test.py --config configs/config_03_ETAZ_f1_1b4.yml  
 
 * DLA training and testing:
-	python train.py --config configs/config_04_ETAZ_f1_1a.yml
-	python test.py --config configs/config_04_ETAZ_f1_1a.yml
-
+	python train.py --config configs/config_04_ETAZ_f1_1a.yml  
+	python test.py --config configs/config_04_ETAZ_f1_1a.yml   
 
 ## 4. YOLO Object Detection: Training and Testing
 
-* Installation and usage based on:
-	https://medium.com/p/61a659d4868#e5b4
-	https://github.com/AlexeyAB/darknet
-	https://arxiv.org/abs/2004.10934
+* Installation and usage based on:  
+	https://medium.com/p/61a659d4868#e5b4  
+	https://github.com/AlexeyAB/darknet  
+	https://arxiv.org/abs/2004.10934  
 	
 * YOLO training:
 
@@ -102,10 +100,10 @@ For usage, first clone this repository into your local 'cystolith_detection' dir
 
 ## 5. DETR Object Detection: Training and Testing
 
-* Installation and usage based on:
-	https://github.com/roboflow/notebooks/blob/main/notebooks/train-huggingface-detr-on-custom-dataset.ipynb
-	https://www.youtube.com/watch?v=AM8D4j9KoaU&t=619s
-	https://link.springer.com/chapter/10.1007/978-3-030-58452-8_13
+* Installation and usage based on:  
+	https://github.com/roboflow/notebooks/blob/main/notebooks/train-huggingface-detr-on-custom-dataset.ipynb  
+	https://www.youtube.com/watch?v=AM8D4j9KoaU&t=619s  
+	https://link.springer.com/chapter/10.1007/978-3-030-58452-8_13  
 
 * DETR training + testing:
 
@@ -129,7 +127,7 @@ For usage, first clone this repository into your local 'cystolith_detection' dir
 	1. Train DETR with a lower threshold (see previous section) and use TH = XXX in the XXX file. (TODO - find confidence_threshold, detection_threshold in detr_predict())
 	2. Run the classifier_bbx_to_images() function in src/basic_classifiers/utils.py to produce the bounding boxes images from DETR's classification.
 	3. Run the create_yolo_detr_split_lists() function in src/basic_classifiers/utils.py to create lists of train/validation/test splits of the bounding box images.
-	4. Train the DLA model on boundig boxes images, with the following command (similar to DLA training as described above): 
+	4. Train the DLA model on boundig boxes images, with the following command (similar to DLA training as described above):   
 		python train.py --config configs/config_06_f1_1a_g7.yml	
 	5. Use the model trained on bounding boxes as part of the composite method described below.
 
@@ -157,8 +155,8 @@ For usage, first clone this repository into your local 'cystolith_detection' dir
 "Identification of Non-Glandular Trichome Hairs in Cannabis using Vision-Based Deep Learning Methods"
 Alon Zvirin ^1, Amitzur Shapira ^2, Emma Attal ^1, Tamar Gozlan ^1, Arthur Soussan ^1, Dafna De La Vega ^2, Yehudit Harush ^2, and Ron Kimmel ^1.
     1 Computer Science Department, Technion - Israel Institute of Technology. Haifa, Israel. 
-    2 The Division of Forensic Sciences, National Police Headquarters, Jerusalem, Israel.
-The paper will soon be published.
+    2 The Division of Forensic Sciences, National Police Headquarters, Jerusalem, Israel.  
+The paper will soon be published.  
 Contact - alongitzv@gmail.com
 
 
