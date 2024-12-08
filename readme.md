@@ -69,11 +69,11 @@ For usage, first clone this repository into your local 'cystolith_detection' dir
 	2. Change the train->out_dir field to your desired local directory for writing results.
 	
 * Small CNN training and testing:	
-	python train.py --config configs/config_03_ETAZ_f1_1b4.yml  
+	python train.py --config configs/config_03_ETAZ_f1_1b4.yml     
 	python test.py --config configs/config_03_ETAZ_f1_1b4.yml  
 
 * DLA training and testing:
-	python train.py --config configs/config_04_ETAZ_f1_1a.yml  
+	python train.py --config configs/config_04_ETAZ_f1_1a.yml   
 	python test.py --config configs/config_04_ETAZ_f1_1a.yml   
 
 ## 4. YOLO Object Detection: Training and Testing
@@ -124,7 +124,7 @@ For usage, first clone this repository into your local 'cystolith_detection' dir
 ## 6. Composite Methods
 
 * Create the bounding box dataset needed for training the composite 2&3 stage method:
-	1. Train DETR with a lower threshold (see previous section) and use TH = XXX in the XXX file. (TODO - find confidence_threshold, detection_threshold in detr_predict())
+	1. Train DETR with a lower threshold (see previous section), with CONFIDENCE_TRESHOLD = 0.1 in the detr_training.py file.  
 	2. Run the classifier_bbx_to_images() function in src/basic_classifiers/utils.py to produce the bounding boxes images from DETR's classification.
 	3. Run the create_yolo_detr_split_lists() function in src/basic_classifiers/utils.py to create lists of train/validation/test splits of the bounding box images.
 	4. Train the DLA model on boundig boxes images, with the following command (similar to DLA training as described above):   
@@ -152,8 +152,8 @@ For usage, first clone this repository into your local 'cystolith_detection' dir
 
 ## 8. Credits
 
-"Identification of Non-Glandular Trichome Hairs in Cannabis using Vision-Based Deep Learning Methods"
-Alon Zvirin<sup>1</sup>, Amitzur Shapira<sup>2</sup>, Emma Attal<sup>1</sup>, Tamar Gozlan<sup>1</sup>, Arthur Soussan<sup>1</sup>, Dafna De La Vega<sup>2</sup>, Yehudit Harush<sup>2</sup>, and Ron Kimme<sup>1</sup>.
+"Identification of Non-Glandular Trichome Hairs in Cannabis using Vision-Based Deep Learning Methods"  
+Alon Zvirin<sup>1</sup>, Amitzur Shapira<sup>2</sup>, Emma Attal<sup>1</sup>, Tamar Gozlan<sup>1</sup>, Arthur Soussan<sup>1</sup>, Dafna De La Vega<sup>2</sup>, Yehudit Harush<sup>2</sup>, and Ron Kimmel<sup>1</sup>.  
     1 Computer Science Department, Technion - Israel Institute of Technology. Haifa, Israel.  
     2 The Division of Forensic Sciences, National Police Headquarters, Jerusalem, Israel.  
 The paper will soon be published.  
