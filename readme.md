@@ -55,14 +55,13 @@ For usage, first clone this repository into your local 'cystolith_detection' dir
 
 ## 3. Basic Classifiers: Overview and Usage
 
-* Basic CNN (Convolutional Neural Network) is based on:
+* Basic CNN (Convolutional Neural Network) is based on: 
 	https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
 	https://www.kaggle.com/code/shadabhussain/cifar-10-cnn-using-pytorch
 
-* DLA (Deep Layer Aggregation) is based on:
+* DLA (Deep Layer Aggregation) is based on: 
 	https://github.com/kuangliu/pytorch-cifar/blob/master/models/dla.py
 	https://arxiv.org/abs/1707.06484
-
 
 * Use the configuration files in \cystolith_detection\src\basic_classifiers\configs
 * Use the image lists in \cystolith_detection\src\basic_classifiers\image_lists
