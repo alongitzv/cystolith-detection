@@ -1,10 +1,4 @@
 
-"""
-mean + std calculation taken from:
-https://kozodoi.me/blog/20210308/compute-image-stats
-
-"""
-
 
 import imageio
 import os

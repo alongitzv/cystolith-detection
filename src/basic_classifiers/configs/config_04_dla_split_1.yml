@@ -1,11 +1,11 @@
 data:
     dataset: CYSTO
-    path: /home/alz/datasets/cystolith/data/
-    train_list: ./image_lists/bbx_f1_train.txt
-    validation_list: ./image_lists/bbx_f1_validation.txt 
-    test_list: ./image_lists/bbx_f1_test.txt
-    img_size: [512,512] # [1710,4096] [2160,4096] [512,512]
-    do_resize: [256,256] # [540,1024] [270,512] [512,512] [0,0]
+    path: ../../data/
+    train_list: ../../data/image_lists/train_list_split_1.txt
+    validation_list: ../../data/image_lists/validation_list_split_1.txt
+    test_list: ../../data/image_lists/test_list_split_1.txt
+    img_size: [1710,4096] # [2160,4096] [512,512]
+    do_resize: [214,512] # [540,1024] [270,512] [512,512] [0,0]
     n_channels: 3
     normalize_mean: [0.385 0.411 0.430] # [0.5, 0.5, 0.5]
     normalize_std: [0.157 0.1727 0.200] # [0.5, 0.5, 0.5]
@@ -17,11 +17,11 @@ model:
     #pretrained: False    
  
 train:        
-    out_dir: ./runs_bbx/cfg_06_f1_1a_g7
+    out_dir: ./runs/cfg_04_dla_split_1
     pretrained_model: # ./runs/cfg_0/cifar_net.pth    
     saved_model: cysto_net.pth
-    n_epochs: 40
-    batch_size: 32
+    n_epochs: 80
+    batch_size: 6
     n_validations_per_epoch: 2        
     loss:
         name: cross_entropy     #         
@@ -30,7 +30,7 @@ train:
         class_weights: [1.0, 1.0]  # [1.00, 10.02]
     optimizer:
         name: Adam    # Adam  SGD
-        lr: 1.0e-5
+        lr: 1.0e-4
         momentum: 0.9  # 0
         weight_decay: 5.0e-4     # 0
     scheduler:
@@ -45,9 +45,9 @@ augmentations:
     brightness: 0.02    # [brightness varied in 1-x to 1+x]
     gamma: 0.02         # [gamma varied in 1 to 1+x]
     contrast: 0.02      # [contrast varied in 1-x to 1+x]
-    rotate: 10         # [rotate -d to d degrees]
+    rotate: 20         # [rotate -d to d degrees]
     shear: 0            # [shear value -s to s]
-    scale: [0.9, 1.1]   # [scale in range (s_min, s_max)]
+    scale: [0.9, 1.2]   # [scale in range (s_min, s_max)]
     translate: [16, 16] # [translation by max (du, dv)]
     hflip: 0.5          # [flip horizontally with chance p]
 
@@ -55,5 +55,3 @@ debug_info:
     save_training_images: 0
     save_training_dir: runs/zz_debug_pics1
     save_test_info: 1
-    
-random_seed: 2024  

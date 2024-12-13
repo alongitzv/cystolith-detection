@@ -1,9 +1,9 @@
 data:
     dataset: CYSTO
-    path: C:/alon/datasets/cystolith/
-    train_list: ./image_lists/ETAZ_f1_train_list.txt
-    validation_list: ./image_lists/ETAZ_f1_validation_list.txt
-    test_list: ./image_lists/ETAZ_f1_test_list.txt
+    path: ../../data/
+    train_list: ../../data/image_lists/train_list_split_1.txt
+    validation_list: ../../data/image_lists/validation_list_split_1.txt
+    test_list: ../../data/image_lists/test_list_split_1.txt
     img_size: [1710,4096] # [2160,4096] [512,512]
     do_resize: [428,1024] # [540,1024] [270,512] [512,512] [0,0]
     n_channels: 3
@@ -17,7 +17,7 @@ model:
     #pretrained: False    
  
 train:        
-    out_dir: ./runs/cfg_03_ETAZ_f1_1b4
+    out_dir: ./runs/cfg_03_basic_cnn_split_1
     pretrained_model: # ./runs/cfg_0/cifar_net.pth    
     saved_model: cysto_net.pth
     n_epochs: 80
