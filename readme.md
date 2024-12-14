@@ -3,7 +3,7 @@
 
 ### **Cystolith Detection**
 
-# Cystolith Detection: A Vision-Based Deep Learning Framework
+# Cystolith Detection: A Vision-Based Deep Learning Framework for Cannabis Identification
 
 ## Table of Contents
 1. Introduction
@@ -44,7 +44,7 @@ For usage, first clone this repository into your local 'cystolith_detection' dir
 ## 2. Project Structure
 
 * `src/`: Contains source code for classifiers, object detection models, and composite methods.
-* `data/`: Includes images and annotations used for training and testing.
+* `data/`: Includes the complete dataset - images and annotations used for training and testing.
 * `data/image_lists/`: Contains train/validation/test partitions for the datasets.
 *  Notes on file names and annotations:  
     All filenames containing 'C' refer to genuine cannabis; filenames containing 'S' refer to non-cannabis material.  
@@ -127,7 +127,7 @@ For usage, first clone this repository into your local 'cystolith_detection' dir
 	2. Run the classifier_bbx_to_images() function in src/basic_classifiers/utils.py to produce the bounding boxes images from DETR's classification.
 	3. Run the create_yolo_detr_split_lists() function in src/basic_classifiers/utils.py to create lists of train/validation/test splits of the bounding box images.
 	4. Train the DLA model on boundig boxes images, with the following command (similar to DLA training as described above):   
-		python train.py --config configs/config_06_bbx_split1.yml	
+		python train.py --config configs/config_06_bbx_split_1.yml	
 	5. Use the model trained on bounding boxes as part of the composite method described below.
 
 * Composite method 1 - DETR --> CNN on whole image:
