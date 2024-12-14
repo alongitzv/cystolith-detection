@@ -951,6 +951,54 @@ def relabel_S_anns(in_dir, out_dir):
         out_file.close()
 
 
+def count_num_annotations(ann_dir, pic_dir):
+    all_files = os.listdir(ann_dir)
+    num_files = len(all_files)
+    num_bbx = np.zeros(2, dtype=np.uint32)
+    min_size = np.inf
+    max_size = 0
+
+    for i in range(0, num_files):
+        in_file_name = os.path.join(ann_dir, all_files[i])
+
+        prefix = str.split(all_files[i], '.')
+        in_pic_name = prefix[0] + '.jpg'
+        in_pic_name = os.path.join(pic_dir, in_pic_name)
+        if not os.path.exists(in_pic_name):
+            print(all_files[i])
+            continue
+
+        in_file = open(in_file_name, 'r')
+        in_lines = in_file.readlines()
+        in_file.close()
+        num_lines = len(in_lines)
+        for j in range(0, num_lines):
+            curr_line = in_lines[j]
+            vals = str.split(curr_line, ' ')
+            lbl = int(vals[0])
+            w = int(float(vals[3]) * 4096)
+            h = int(float(vals[4]) * 1710)
+            if w<10 or h<10:
+                print('*** ' + str(w) + ' ' + str(h) + ' ' + all_files[i])
+                dummy = 0
+                continue
+            curr_size = w * h
+            if curr_size < min_size:
+                min_size = curr_size
+                min_bbx = [w, h]
+            if curr_size > max_size:
+                max_size = curr_size
+                max_bbx = [w, h]
+            num_bbx[lbl] += 1
+
+    print(num_bbx)
+    print(min_size)
+    print(min_bbx)
+    print(max_size)
+    print(max_bbx)
+    dummy = 0
+
+
 
 if __name__ == "__main__":
 
@@ -1145,5 +1193,12 @@ if __name__ == "__main__":
     # relabel_S_anns(in_dir, out_dir)
 
     ##############################################################################
+
+    # ann_dir = 'D:/alon/cystolith_detection_for_export/cystolith_detection/cystolith-detection/data/anns/'
+    # pic_dir = 'D:/alon/cystolith_detection_for_export/cystolith_detection/cystolith-detection/data/pics/'
+    # count_num_annotations(ann_dir, pic_dir)
+
+    ##############################################################################
+
 
     dummy = 0
