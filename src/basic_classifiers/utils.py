@@ -951,7 +951,7 @@ def relabel_S_anns(in_dir, out_dir):
         out_file.close()
 
 
-ddef count_num_annotations(ann_dir, pic_dir):
+def count_num_annotations(ann_dir, pic_dir):
     all_files = os.listdir(ann_dir)
     num_files = len(all_files)
     num_bbx = np.zeros(2, dtype=np.uint32)
