@@ -951,12 +951,14 @@ def relabel_S_anns(in_dir, out_dir):
         out_file.close()
 
 
-def count_num_annotations(ann_dir, pic_dir):
+ddef count_num_annotations(ann_dir, pic_dir):
     all_files = os.listdir(ann_dir)
     num_files = len(all_files)
     num_bbx = np.zeros(2, dtype=np.uint32)
     min_size = np.inf
     max_size = 0
+    total_wh_real = np.zeros(2, dtype=np.long)
+    total_wh_fake = np.zeros(2, dtype=np.long)
 
     for i in range(0, num_files):
         in_file_name = os.path.join(ann_dir, all_files[i])
@@ -990,14 +992,25 @@ def count_num_annotations(ann_dir, pic_dir):
                 max_size = curr_size
                 max_bbx = [w, h]
             num_bbx[lbl] += 1
+            if lbl == 0:
+                total_wh_real[0] += w
+                total_wh_real[1] += h
+            else:
+                total_wh_fake[0] += w
+                total_wh_fake[1] += h
+
+    avg_real = total_wh_real / float(num_bbx[0])
+    avg_fake = total_wh_fake / float(num_bbx[1])
 
     print(num_bbx)
     print(min_size)
     print(min_bbx)
     print(max_size)
     print(max_bbx)
+    print('avg :')
+    print(avg_real)
+    print(avg_fake)
     dummy = 0
-
 
 
 if __name__ == "__main__":
