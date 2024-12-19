@@ -153,7 +153,7 @@ For usage, first clone this repository into your local 'cystolith_detection' dir
 
 * Update file paths to your local directories as required by individual scripts.  
 * Ensure all dependencies are installed before running any script.
-* The code was run and tested on Windows with python=3.8.10, torch=1.8.0, CUDA 10.1, on a NVIDIA GTX 1080Ti GPU.  
+* The code has been run and tested on a Windows operating system using Python 3.8.10, PyTorch 1.8.0, and CUDA 10.1, on a system equipped with an NVIDIA GTX 1080Ti GPU.    
 
 
 ## 8. Credits
