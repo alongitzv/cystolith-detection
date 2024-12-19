@@ -127,43 +127,33 @@ For usage, first clone this repository into your local 'cystolith_detection' dir
 
 ## 6. Composite Methods
 
-* Create the bounding box dataset needed for training the composite 2&3 stage method:
+* Create the bounding box dataset needed for training the composite 3-stage method:
 	1. Train DETR with a lower threshold (see previous section), with CONFIDENCE_TRESHOLD = 0.1 in the detr_training.py file.  
 	2. Run the classifier_bbx_to_images() function in src/basic_classifiers/utils.py to produce the bounding boxes images from DETR's classification.
 	3. Run the create_yolo_detr_split_lists() function in src/basic_classifiers/utils.py to create lists of train/validation/test splits of the bounding box images.
 	4. Train the DLA model on boundig boxes images, with the following command (similar to DLA training as described above):   
 		python train.py --config configs/config_06_bbx_split_1.yml	
-	5. Use the model trained on bounding boxes as part of the composite method described below.
+	5. Use the model trained on bounding boxes as part of the composite methods described below.
 
-* Composite method 1 - DETR --> DLA on whole images:
-
-	1. Open cmd from \cystolith_detection\src\composite_classifiers
-	2. Run command: py final_method_detr_whole.py
-	3. The output table with all detection info and predictions will be in folder \cystolith_detection\src\composite_classifiers\final_method_results
-
-* Composite method 2 - DETR --> DLA on bounding boxes:
-
-	1. Open cmd from \cystolith_detection\src\composite_classifiers
-	2. Run command: py final_method_detr_bb.py
-	3. The output table with all detection info and predictions will be in folder \cystolith_detection\src\composite_classifiers\final_method_results
-
-* Composite method 1 - YOLO --> DLA on whole images:
-
-	1. Open cmd from \cystolith_detection\src\composite_classifiers
-	2. Run command: py final_method_yolo_whole.py
-	3. The output table with all detection info and predictions will be in folder \cystolith_detection\src\composite_classifiers\final_method_results
-
-* Composite method 2 - YOLO --> DLA on bounding boxes:
-
-	1. Open cmd from \cystolith_detection\src\composite_classifiers
-	2. Run command: py final_method_yolo_bb.py
-	3. The output table with all detection info and predictions will be in folder \cystolith_detection\src\composite_classifiers\final_method_results
+* Composite 2-stage and 3- stage methods:
+    1. Open cmd from \cystolith_detection\src\composite_classifiers
+    2. Select DETR or YOLO, and 2 or 3-stage method.   
+       - 2-stage method - DETR --> DLA on whole images:  
+       Run command: py final_method_detr_whole.py  
+       - 3-stage method - DETR --> DLA on bounding boxes:  
+       Run command: py final_method_detr_bb.py  
+       - 2-stage method - YOLO --> DLA on whole images:  
+       Run command: py final_method_yolo_whole.py  
+       - 3-stage method - YOLO --> DLA on bounding boxes:          
+       Run command: py final_method_yolo_bb.py  
+    3. The output table with all detection info and predictions will be in folder \cystolith_detection\src\composite_classifiers\final_method_results
 
 
 ## 7. General Notes
 
-* Update file paths to your local directories as required by individual scripts.
+* Update file paths to your local directories as required by individual scripts.  
 * Ensure all dependencies are installed before running any script.
+* The code was run and tested on Windows with python=3.8.10, torch=1.8.0, CUDA 10.1, on a NVIDIA GTX 1080Ti GPU.  
 
 
 ## 8. Credits
