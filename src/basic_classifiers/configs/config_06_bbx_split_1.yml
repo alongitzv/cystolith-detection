@@ -21,7 +21,7 @@ train:
     pretrained_model: # ./runs/cfg_0/cifar_net.pth    
     saved_model: cysto_net.pth
     n_epochs: 40
-    batch_size: 32
+    batch_size: 12
     n_validations_per_epoch: 2        
     loss:
         name: cross_entropy     #         

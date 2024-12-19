@@ -135,16 +135,28 @@ For usage, first clone this repository into your local 'cystolith_detection' dir
 		python train.py --config configs/config_06_bbx_split_1.yml	
 	5. Use the model trained on bounding boxes as part of the composite method described below.
 
-* Composite method 1 - DETR --> CNN on whole image:
+* Composite method 1 - DETR --> DLA on whole images:
 
 	1. Open cmd from \cystolith_detection\src\composite_classifiers
-	2. Run command: py final_method_whole.py
+	2. Run command: py final_method_detr_whole.py
 	3. The output table with all detection info and predictions will be in folder \cystolith_detection\src\composite_classifiers\final_method_results
 
-* Composite method 2 - DETR --> CNN on bounding boxes:
+* Composite method 2 - DETR --> DLA on bounding boxes:
 
 	1. Open cmd from \cystolith_detection\src\composite_classifiers
-	2. Run command: py final_method_bb.py
+	2. Run command: py final_method_detr_bb.py
+	3. The output table with all detection info and predictions will be in folder \cystolith_detection\src\composite_classifiers\final_method_results
+
+* Composite method 1 - YOLO --> DLA on whole images:
+
+	1. Open cmd from \cystolith_detection\src\composite_classifiers
+	2. Run command: py final_method_yolo_whole.py
+	3. The output table with all detection info and predictions will be in folder \cystolith_detection\src\composite_classifiers\final_method_results
+
+* Composite method 2 - YOLO --> DLA on bounding boxes:
+
+	1. Open cmd from \cystolith_detection\src\composite_classifiers
+	2. Run command: py final_method_yolo_bb.py
 	3. The output table with all detection info and predictions will be in folder \cystolith_detection\src\composite_classifiers\final_method_results
 
 
