@@ -75,9 +75,9 @@ For usage, first clone this repository into your local 'cystolith_detection' dir
 	python train.py --config configs/config_04_dla_split_1.yml   
 	python test.py --config configs/config_04_dla_split_1.yml   
 
-![CNN diagram](images/Fig_4_CNN_Diagram1.png)
+![CNN diagram](images/Fig_4_CNN_Diagram.png)
 
-![DLA diagram](images/Fig_5_DLA_Diagram1.png)
+![DLA diagram](images/Fig_5_DLA_Diagram.png)
 
 
 ## 4. YOLO Object Detection: Training and Testing
