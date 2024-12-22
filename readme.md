@@ -77,7 +77,7 @@ For usage, first clone this repository into your local 'cystolith_detection' dir
 
 ![CNN diagram](images/Fig_4_CNN_Diagram.png)
 
-![CDLA diagram](images/Fig_5_DLA_Diagram.png)
+![DLA diagram](images/Fig_5_DLA_Diagram.png)
 
 
 ## 4. YOLO Object Detection: Training and Testing
